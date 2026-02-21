@@ -1,5 +1,65 @@
 {
   "go.toolsEnvVars": {
     "GOTESTS_TEMPLATE_DIR": "${workspaceFolder}/.vscode/gotests/templates"
-  }
+  },
+
+  "material-icon-theme.folders.theme": "specific",
+  "material-icon-theme.folders.customClones": [
+    {
+      "name": "leetcode",
+      "base": "folder",
+      "color": "orange-700",
+      "folderNames": ["leetcode", "LeetCode", "leetcode-solutions"],
+      "rootFolderNames": ["leetcode"]
+    },
+    {
+      "name": "tinkoff",
+      "base": "folder",
+      "color": "yellow-600",
+      "folderNames": ["tinkoff", "tinkoff_contest", "tinkoff-contest"],
+      "rootFolderNames": ["tinkoff_contest"]
+    },
+    {
+      "name": "wb",
+      "base": "folder",
+      "color": "purple-400",
+      "folderNames": ["wb", "wb_contest", "wildberries"],
+      "rootFolderNames": ["wb_contest"]
+    },
+    {
+      "name": "yandex",
+      "base": "folder",
+      "color": "yellow-500",
+      "folderNames": ["yandex", "yandex_contest", "ya-contest"],
+      "rootFolderNames": ["yandex_contest"]
+    },
+    {
+      "name": "algorithms",
+      "base": "folder",
+      "color": "blue-400",
+      "folderNames": ["algorithms", "alhorytms", "algo"],
+      "rootFolderNames": ["alhorytms"]
+    },
+    {
+      "name": "easy",
+      "base": "folder",
+      "color": "green-400",
+      "folderNames": ["easy"],
+      "rootFolderNames": ["easy"]
+    },
+    {
+      "name": "medium",
+      "base": "folder",
+      "color": "orange-400",
+      "folderNames": ["medium"],
+      "rootFolderNames": ["medium"]
+    },
+    {
+      "name": "hard",
+      "base": "folder",
+      "color": "red-700",
+      "folderNames": ["hard"],
+      "rootFolderNames": ["hard"]
+    }
+  ]
 }
