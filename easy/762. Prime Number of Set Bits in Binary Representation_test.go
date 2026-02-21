@@ -35,7 +35,7 @@ func Test_isPrime(t *testing.T) {
 		name string // description of this test case
 		// Named input parameters for target function.
 		n    int
-		want bool
+		want bool 
 	}{
 		{
 			n:    (1 << 63) - 1,
