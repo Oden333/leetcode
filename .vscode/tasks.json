@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Generate Tests for Function",
+      "type": "shell",
+      "command": "gotests",
+      "args": [
+        "-template_dir",
+        "${workspaceFolder}/.vscode/gotests/templates",
+        "-w",
+        "-only",
+        "${selectedText}",
+        "${file}"
+      ],
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}

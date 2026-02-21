@@ -1,0 +1,5 @@
+{
+  "go.toolsEnvVars": {
+    "GOTESTS_TEMPLATE_DIR": "${workspaceFolder}/.vscode/gotests/templates"
+  }
+}
