@@ -1,4 +1,4 @@
-package sort
+package search
 
 func BinarySearch(in []int, searchFor int) (int, bool) {
 	if len(in) == 0 {
