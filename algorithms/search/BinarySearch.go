@@ -5,17 +5,17 @@ func BinarySearch(in []int, searchFor int) (int, bool) {
 		return 0, false
 	}
 
-	var first, last = 0, len(in) - 1
+	var left, right = 0, len(in) - 1
 
-	for first <= last {
-		var mid = ((last - first) / 2) + first
+	for left <= right {
+		var mid = ((right - left) / 2) + left
 
 		if in[mid] == searchFor {
 			return mid, true
 		} else if in[mid] > searchFor {
-			last = mid - 1
+			right = mid - 1
 		} else if in[mid] < searchFor {
-			first = mid + 1
+			left = mid + 1
 		}
 	}
 
