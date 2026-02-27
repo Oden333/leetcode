@@ -72,3 +72,22 @@ func TestNextGreaterElement(t *testing.T) {
 		})
 	}
 }
+func BenchmarkNextGreaterElement(b *testing.B) {
+	// Генерируем массив разного размера
+	sizes := []int{100, 1000, 10000}
+
+	for _, size := range sizes {
+		b.Run(fmt.Sprintf("size_%d", size), func(b *testing.B) {
+			// Худший случай: убывающий массив (стек растёт до n)
+			nums := make([]int, size)
+			for i := range nums {
+				nums[i] = size - i
+			}
+
+			b.ResetTimer()
+			for i := 0; i < b.N; i++ {
+				_ = nextGreaterElement(nums)
+			}
+		})
+	}
+}
