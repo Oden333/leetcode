@@ -4,8 +4,6 @@ type lra struct {
 	val, idx int
 }
 
-
-
 func largestRectangleArea(n []int) int {
 	var (
 		max, val int
@@ -34,7 +32,7 @@ func largestRectangleArea(n []int) int {
 	}
 
 	for i := 0; i < len(n); i++ {
-		
+
 	}
 
 	return max
