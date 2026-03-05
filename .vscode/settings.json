@@ -3,6 +3,8 @@
     "GOTESTS_TEMPLATE_DIR": "${workspaceFolder}/.vscode/gotests/templates"
   },
 
+  "git.postCommitCommand": "push",
+
   "material-icon-theme.folders.theme": "specific",
   "material-icon-theme.folders.customClones": [
     {
