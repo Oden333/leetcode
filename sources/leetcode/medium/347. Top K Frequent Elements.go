@@ -29,11 +29,12 @@ func topKFrequent(n []int, k int) []int {
 //		Pop() any   // remove and return element Len() - 1.
 //	}
 
+// max heap (by index)
+type tkf []tfkel
+
 type tfkel struct {
 	val, count int
 }
-
-type tkf []tfkel
 
 func (h tkf) Len() int {
 	return len(h)
