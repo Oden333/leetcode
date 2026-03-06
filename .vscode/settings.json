@@ -20,6 +20,13 @@
 
   "git.postCommitCommand": "push",
 
+  // Чтобы сворачивать тестовые файлы
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false, // false = свёрнуто по умолчанию (чище)
+  "explorer.fileNesting.patterns": {
+    "*.go": "${capture}_test.go"
+  },
+
   "material-icon-theme.folders.theme": "specific",
   "material-icon-theme.folders.customClones": [
     {
