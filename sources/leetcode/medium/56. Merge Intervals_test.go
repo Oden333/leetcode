@@ -34,7 +34,7 @@ func Test_merge(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			assert.Equalf(t, tt.want, merge(tt.args.intervals), "merge(%v)", tt.args.intervals)
+			assert.Equalf(t, tt.want, merge2(tt.args.intervals), "merge(%v)", tt.args.intervals)
 		})
 	}
 }
