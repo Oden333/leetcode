@@ -2,6 +2,8 @@
   "permissions": {
     "allow": [
       "Read(**)",
+      "Edit(**/*_test.go)",
+      "Write(**/*_test.go)",
       "Bash(go test *)",
       "Bash(go build *)",
       "Bash(go vet *)",
