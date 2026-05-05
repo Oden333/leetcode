@@ -67,7 +67,7 @@ func solve(board [][]byte) {
 	}
 
 	for x, col := range board {
-		for y, _ := range col {
+		for y /* , _ */ := range col {
 			if _, ok := islands[pxl{x, y}]; !ok && board[x][y] == 'O' {
 				board[x][y] = 'X'
 			}

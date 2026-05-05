@@ -2,7 +2,6 @@
   "permissions": {
     "allow": [
       "Bash(grep -E \"\\\\.\\(go|cpp|py|java|js|ts|c|h\\)$\")",
-
       "Edit(**/*_test.go)",
       "Write(**/*_test.go)",
       "Bash(go test *)"

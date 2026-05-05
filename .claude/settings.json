@@ -11,7 +11,14 @@
 
       "Bash(git status)",
       "Bash(git log *)",
-      "Bash(git diff *)"
+      "Bash(git diff *)",
+
+      "Skill(review)",
+      "Skill(write-tests)",
+      "Skill(pattern)",
+
+      "WebSearch",
+      "WebFetch(domain:blog.algomaster.io)"
     ]
   }
 }
